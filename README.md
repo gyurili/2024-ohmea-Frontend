@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🧑‍🍳 오메 (Ohmea): 사용자 맞춤 요리 레시피 추천 서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![기능 소개 1 (6)](https://github.com/user-attachments/assets/a65d024f-ff9d-40d9-89b6-817ddc089cfa)
+![기능 소개 2 (2)](https://github.com/user-attachments/assets/96276bbd-a822-47b9-b37e-3cdbef3ebeb7)
 
-## Available Scripts
 
-In the project directory, you can run:
+> **냉장고 속 식재료**를 YOLO 모델로 인식해 오늘 먹을 메뉴를 추천해주는 **요리 레시피 서비스**입니다.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 📅 프로젝트 개요
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **진행 기간**: 2024년 6월 1일 ~ 2024년 8월 1일
+- **참여 인원**: 총 3명 (프론트 & 백 3명)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔎 소개
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+오메(Ohmea)는 사용자의 성별, 나이, 요리 실력, 예산 등의 정보를 기반으로 **맞춤형 요리 레시피를 추천하는 서비스**입니다.   또한 사용자가 식재료 사진을 촬영하면, **사진 속 식재료를 인식**하고 이를 기반으로 **만들 수 있는 레시피를 추천**합니다.  
+맞춤 레시피를 통해 요리 초보자부터 숙련자까지 모두가 사용할 수 있는 서비스입니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠 개발 배경
 
-### `npm run eject`
+- COVID-19 이후 달라진 식생활 패턴과 **온라인 식료품 시장의 성장**
+- 늘어나는 1인 가구와 **냉장고 속 식재료 낭비 문제** 개선
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧭 주요 기능
 
-## Learn More
+- 👤 **회원가입**: 성별, 요리 실력, 예산 등 사용자 정보를 입력
+- 🏠 **메인 페이지**: 사용자 정보 요약과 추천 레시피를 한눈에 확인
+- 🍽️ **맞춤 레시피 추천**: 입력된 사용자 정보를 기반으로 맞 레시피 추천
+- 📖 **레시피 조회**: 요리 시간, 난이도, 비용 등의 상세 정보와 사용자 리뷰 제공
+- 🧊 **나의 냉장고 등록**: 보유 중인 식재료를 입력해 가능한 요리 필터링
+- 📷 **식재료 인식**: 냉장고 속 식재료 사진을 업로드하면 자동으로 식재료 인식
+- 🔥 **핫딜 특가 제공**: 필요한 식재료의 온라인 최저가 정보 제공
+  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+## 🛠️ 기술 스택
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| 분야 | 사용 기술 |
+|------|------------|
+| Frontend | Figma, React |
+| Backend | SpringBoot |
+| AI 모델 | YOLO |
+| DB | MySQL |
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🏆 프로젝트 성과
+- 2024 한이음 ICT 멘토링 **수료**
